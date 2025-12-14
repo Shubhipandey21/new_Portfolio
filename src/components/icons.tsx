@@ -1,4 +1,6 @@
 import { GlobeIcon, MailIcon } from "lucide-react";
+import Image from "next/image";
+
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -221,7 +223,13 @@ export const Icons = {
       />
     </svg>
   ),
-   leetcode: (props: IconProps) => (
-  <img src="LeetCode.png" className="h-6 w-6"/>
-   ),
+   leetcode: () => (
+  <Image
+    src="/LeetCode.png"
+    alt="LeetCode"
+    width={24}
+    height={24}
+  />
+),
+
 };

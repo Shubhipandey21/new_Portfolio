@@ -100,7 +100,7 @@ export const DATA = {
 },
 {
   company: "Protut",
-  // href: "https://protut.com", // replace if different
+  href: "https://protut.com", // replace if different
   badges: [],
   location: "Remote",
   title: "Software Engineer Intern",
